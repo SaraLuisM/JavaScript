@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(130, 130, 224);
+            /*comentario em css*/
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: rgb(220, 196, 45);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Ola, mundo! </h1> <!-- comentario em html-->
+    <p>Ja me livrei da maldiçao</p>
+
+    <script>
+
+        var n1 = Number(window.prompt('Digite um numero: ')) // o comando prompt transforma o conteudo em string
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // o + pode servir para adicao e tambem pode servir para concatenacao
+
+        //number + number para adiçao
+        //string + string para concatenaçao
+
+    </script>
+</body>
+
+</html>
+
+<!--
+    Para converter string em numero: 
+    Number.parseInt(n) (inteiro)
+    Number.parseFloat(n) (decimal)
+    Number(n) se colocar so number tambem faz a conversao : maneira mais recente
+
+    Para converter um Numero em string
+    String(n)     -- n neste caso é o que se quer converter
+    n.toString()
+-->
